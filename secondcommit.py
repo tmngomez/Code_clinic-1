@@ -26,6 +26,7 @@ def help_function():
             #code to be added to take the necessary cancellation steps
             print("Your action has been cancelled.")
             continue
+        #to make testing barable
         if user_input == 'off':
             print("shutting down")
             break
