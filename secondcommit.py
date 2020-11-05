@@ -4,9 +4,8 @@ def help_function():
     The function contains valid commands the user can follow to make a valid booking attempts
     """
 
-    user_input = input("Please enter response: ")
-    
     while True:
+        user_input = input("Please enter response: ")
         if user_input == 'help':
             print(""" These are the commands you can use:
             help - gives you commands you can use
@@ -17,9 +16,12 @@ def help_function():
             choose_topic - to choose the topic you want to discuss during consultation
             cancel - to cancel an invalid action
             """)
-            break
+            continue
+        if user_input == 'cancel':
+            print("Your action has been cancelled.")
+            continue
         else:
-            user_input = input("Please enter response: ")
+            continue
 
 #function call
 help_function()
