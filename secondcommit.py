@@ -20,6 +20,7 @@ def help_function():
             make_slot - to confirm you are volunteering for the specified time
             book_slot - to confirm you are choosing to get help at the specified time
             choose_topic - to choose the topic you want to discuss during consultation
+            cancel_booking - to cancel a booking
             cancel - to cancel an invalid action
             """)
             continue
