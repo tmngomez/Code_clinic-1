@@ -7,6 +7,7 @@ def get_input():
 def help_function():
     """
     The function contains valid commands the user can follow to make a valid booking attempts
+    The function has evolved to be a function of understood commands
     """
 
     while True:
